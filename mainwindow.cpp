@@ -18,6 +18,7 @@ MainWindow::MainWindow(QWidget *parent)
     QSettings settings("MyCompany", "MyApp");
     QStringList projects = settings.value("recentProjects").toStringList();
     ui->recentProjectsList->addItems(projects);
+    setWindowIcon(QIcon("G-max.ico"));
 }
 
 MainWindow::~MainWindow()

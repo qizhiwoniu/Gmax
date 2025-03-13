@@ -1,5 +1,5 @@
-QT       += core gui
-QT += openglwidgets opengl
+QT       += core gui opengl
+QT += widgets opengl openglwidgets
 LIBS += -lopengl32
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -35,24 +35,10 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
-    QtDock/QtDock.pri \
-    images/bag-handle-outline.svg \
-    images/bug-outline.svg \
-    images/color_lens.svg \
-    images/document-outline.svg \
-    images/folder-outline.svg \
-    images/folder.svg \
-    images/folder_open.svg \
-    images/game-controller-outline.svg \
-    images/help-circle-outline.svg \
-    images/home-outline.svg \
-    images/lock_outline.svg \
-    images/note_add.svg \
-    images/play-outline.svg \
-    images/play.svg \
-    images/save-outline.svg \
-    images/settings-outline.svg \
-    images/stop-outline.svg
+    G-max.rc \
+    QtDock/QtDock.pri
 
 RESOURCES += \
     Gmax.qrc
+RC_ICONS = G-max.ico
+RC_FILE += G-max.rc

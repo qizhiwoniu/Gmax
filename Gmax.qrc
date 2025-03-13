@@ -18,5 +18,7 @@
         <file>images/save-outline.svg</file>
         <file>images/settings-outline.svg</file>
         <file>images/stop-outline.svg</file>
+        <file>G-max.rc</file>
+        <file>G-max.ico</file>
     </qresource>
 </RCC>
