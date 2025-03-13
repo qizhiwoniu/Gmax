@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/lock_outline.svg</file>
+        <file>images/note_add.svg</file>
+        <file>QtDock/QtDock.pri</file>
+        <file>images/bag-handle-outline.svg</file>
+        <file>images/bug-outline.svg</file>
+        <file>images/color_lens.svg</file>
+        <file>images/document-outline.svg</file>
+        <file>images/folder.svg</file>
+        <file>images/folder_open.svg</file>
+        <file>images/folder-outline.svg</file>
+        <file>images/game-controller-outline.svg</file>
+        <file>images/help-circle-outline.svg</file>
+        <file>images/home-outline.svg</file>
+        <file>images/play.svg</file>
+        <file>images/play-outline.svg</file>
+        <file>images/save-outline.svg</file>
+        <file>images/settings-outline.svg</file>
+        <file>images/stop-outline.svg</file>
+    </qresource>
+</RCC>
